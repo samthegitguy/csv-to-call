@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+  url: https://samthegitguy.github.io/csv-to-call
+  about: Check the documentation first before creating an issue or asking your question on Discussions
+  - name: Github Discussions Q and A
+  url: https://github.com/samthegitguy/csv-to-call/discussions/new
+  about: If you have a question about how to use the app, please ask it here.
