@@ -1,0 +1,31 @@
+{
+  "name": "csvapi",
+  "version": "0.1.0",
+  "description": "This module can convert csv data into json data then creates a REST api call to a server.",
+  "main": "src/index.js",
+  "bin": {
+    "csv": "src/cmdline.js"
+  },
+  "scripts": {
+    "prepublishOnly": "npm link && jsdoc src -R README.md -d docs",
+    "test": "node src/cmdline.js examples/example.csv https://api.example.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/samthegitguy/csvapi"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "data",
+    "processing",
+    "nodejs"
+  ],
+  "author": "samthegitguy and other open source contributors",
+  "license": "MIT",
+  "devDependencies": {
+    "jsdoc": "^3.6.6"
+  },
+  "docs": "https://samthegitguy.github.io/csvapi",
+  "bugs": "https://github.com/samthegitguy/"
+}

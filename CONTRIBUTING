@@ -1,0 +1,7 @@
+Rules:
+
+Make sure you commit in the conventional commit style. This helps keep all commits organized and tidy
+
+New features / bugfixes should go on their own branches. 
+
+Do not commit to the releases branch! Github will block you anyway. You need to commit to your feature branch, then merge to master then I will merge to releases. 
