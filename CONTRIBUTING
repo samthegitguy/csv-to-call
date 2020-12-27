@@ -5,3 +5,9 @@ Make sure you commit in the conventional commit style. This helps keep all commi
 New features / bugfixes should go on their own branches. 
 
 Do not commit to the releases branch! Github will block you anyway. You need to commit to your feature branch, then merge to master then I will merge to releases. 
+Commits to the master branch are allowed however since the master branch is where you commit repo related stuff such as workflows, etc.
+
+
+
+This is a contributing guide which means it will tell you how to contribute. 
+It is not a development manual - for that see https://github.com/samthegitguy/csv-to-call/wiki
