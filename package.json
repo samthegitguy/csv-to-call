@@ -24,7 +24,7 @@
   "author": "samthegitguy and other open source contributors",
   "license": "MIT",
   "devDependencies": {
-    "jsdoc": "^3.6.7"
+    "jsdoc": "^4.0.2"
   },
   "docs": "https://samthegitguy.github.io/csvapi",
   "bugs": "https://github.com/samthegitguy/"
